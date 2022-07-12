@@ -1,0 +1,11 @@
+ Volume in drive D is New Volume
+ Volume Serial Number is 20D8-CA10
+
+ Directory of D:\MyFolder
+
+07/12/2022  01:42 PM    <DIR>          .
+07/12/2022  12:46 PM                 0 index.html
+07/12/2022  12:46 PM                 2 test1.txt
+07/12/2022  01:42 PM                 0 test2.txt
+               3 File(s)              2 bytes
+               1 Dir(s)  532,872,122,368 bytes free
