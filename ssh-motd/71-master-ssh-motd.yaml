@@ -1,0 +1,18 @@
+apiVersion: machineconfiguration.openshift.io/v1
+kind: MachineConfig
+metadata:
+  name: 71-master-ssh-motd
+  labels:
+    machineconfiguration.openshift.io/role: master
+spec:
+  config:
+    ignition:
+      version: 3.4.0
+    storage:
+      files:
+        - path: /etc/motd
+          filesystem: root
+          mode: 292          # decimal for octal 0444 (r--r--r--)
+          overwrite: true
+          contents:
+            source: http://rhgls.domain8.example.com/ssh.motd
